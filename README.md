@@ -36,9 +36,9 @@
 | ---------- | ---------- | ----------- |
 | text       | text       | null: false |
 | user       | references |             |
-| prototypes | referenses |             |
+| prototypes | references |             |
 
 ### Association
 
-- belongs_to :users
-- belongs_to :prototypes
+- belongs_to :user
+- belongs_to :prototype
